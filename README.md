@@ -55,11 +55,11 @@ Prevents false positives by requiring:
 
 ### Alert System
 When drowsiness is detected:
-- 🔊 Local alarm is triggered
-- 📸 Face snapshot is captured
-- 📊 EAR trend graph is generated
-- 📍 GPS location is fetched
-- 🤖 Telegram message + images are sent
+- Local alarm is triggered
+- Face snapshot is captured
+- EAR trend graph is generated
+- GPS location is fetched
+- Telegram message + images are sent
 
 ### Logging & Data Cleaning
 - Logs EAR, MAR, head tilt, and events once per second
@@ -88,7 +88,7 @@ After the session ends:
 
 ### Install Dependencies
 - pip install opencv-python dlib imutils numpy pandas matplotlib scipy pygame geocoder requests
-- ⚠️ Installing dlib may require CMake and Visual Studio Build Tools (Windows) or build-essential (Linux).
+- Installing dlib may require CMake and Visual Studio Build Tools (Windows) or build-essential (Linux).
 - Download Facial Landmark Model
 
 ### Download:
@@ -113,10 +113,10 @@ After the session ends:
 
 ## Outputs & Alerts
 Sent to Telegram
-- 🚨 Alert message
-- 📸 Driver snapshot
-- 📊 EAR trend graph
-- 📈 Session summary graphs
+- Alert message
+- Driver snapshot
+- EAR trend graph
+- Session summary graphs
 
 ### Stored Locally
 - CSV logs
